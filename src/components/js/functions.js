@@ -39,7 +39,6 @@ function V_tank02(L, r, h) {
 //     let L = 4.5,r=0.8,hi=0.435;
 //     return L*(Math.PI*r*r/2-(r-h)*Math.sqrt(2*r*h-h*h)-r*r*Math.asin((r-h)/r))+Math.PI*hi/3/r*(3*r*r*h-r*r*r+Math.pow((r-h),3))
 // }
-
 function V_tank04_4jcz(h) {
     let L = 4,r=1.1,hi=0.55;
     return L*(Math.PI*r*r/2-(r-h)*Math.sqrt(2*r*h-h*h)-r*r*Math.asin((r-h)/r))+Math.PI*hi/3/r*(3*r*r*h-r*r*r+Math.pow((r-h),3))
